@@ -8,7 +8,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Trade Scam✅",
+	Name = "GodMode+ Aimlock+ more⛔️",
 	Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Murder-Mystery-2-MM-AUTO-SHOOT-15532"))()
       		print("button pressed")
@@ -22,7 +22,7 @@ Tab:AddToggle({
 	end    
 })
 Tab:AddToggle({
-	Name = "🧊Freeze Trade🧊",
+	Name = "🧊Freeze Trade🧊(Patched)",
 	Default = false,
 	Callback = function(Value)
 loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
@@ -35,20 +35,20 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 	})
 Tab:AddButton({
-	Name = "NOTE! WAIT EQUIP SWORD YOU WANT TO DUPE WAIT 1MIN",
+	Name = "NOTE! WAIT EQUIP SWORD YOU WANT TO DUPE WAIT 5MIN(stable)",
 	Callback = function()
       		print("button pressed")
   	end    
         })     
 Tab:AddToggle({
-	Name = "Dupe limited🔪",
+	Name = "Dupe Ancient(stable)🔪",
 	Default = false,
 	Callback = function(Value)
 		print(Value)
 	end    
 	})
 Tab:AddToggle({
-	Name = "Dupe Unique🔪",
+	Name = "Dupe Godly (Patched)🔪",
 	Default = false,
 	Callback = function(Value)
 		print(Value)

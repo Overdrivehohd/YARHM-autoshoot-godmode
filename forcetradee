@@ -1,65 +1,78 @@
+--// Initial Check
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
--- [[ KEY SYSTEM ]]
+--// Key System Settings
 local RAW_URL = "https://raw.githubusercontent.com/Overdrivehohd/key.txt/refs/heads/main/OHIO?t=" .. tick()
 local KeyEntered = false
 
-function GetKeyData() 
+local function GetKeyData() 
     local s, r = pcall(function() return game:HttpGet(RAW_URL) end) 
     if s then 
         local ds, d = pcall(function() return HttpService:JSONDecode(r) end) 
-        return ds and d or nil 
+        if ds then return d end
     end 
     return nil 
 end
 
-local ksg = Instance.new("ScreenGui", game:GetService("CoreGui"))
+--// UI Creation
+local ksg = Instance.new("ScreenGui")
+ksg.Name = "KeySystem"
+ksg.Parent = game:GetService("CoreGui")
+
 local kmain = Instance.new("Frame", ksg)
 kmain.Size = UDim2.new(0, 300, 0, 180)
 kmain.Position = UDim2.new(0.5, -150, 0.5, -90)
-kmain.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+kmain.BackgroundColor3 = Color3.fromRGB(30, 30, 35)
 Instance.new("UICorner", kmain)
 
 local ktitle = Instance.new("TextLabel", kmain)
-ktitle.Size = UDim2.new(1, 0, 0, 60)
-ktitle.Text = "Welcome, " .. player.DisplayName
-ktitle.Font = Enum.Font.GothamBold
-ktitle.TextColor3 = Color3.new(1,1,1)
+ktitle.Size = UDim2.new(1, 0, 0, 50)
+ktitle.Text = "Enter Key"
+ktitle.TextColor3 = Color3.new(1, 1, 1)
 ktitle.BackgroundTransparency = 1
+ktitle.Font = Enum.Font.GothamBold
+ktitle.TextSize = 18
 
 local KeyInput = Instance.new("TextBox", kmain)
 KeyInput.Size = UDim2.new(0.8, 0, 0, 35)
 KeyInput.Position = UDim2.new(0.1, 0, 0.4, 0)
-KeyInput.PlaceholderText = "ENTER KEY..."
-KeyInput.BackgroundColor3 = Color3.fromRGB(30, 30, 35)
-KeyInput.TextColor3 = Color3.new(1,1,1)
+KeyInput.PlaceholderText = "Paste key here..."
+KeyInput.Text = ""
+KeyInput.BackgroundColor3 = Color3.fromRGB(45, 45, 50)
+KeyInput.TextColor3 = Color3.new(1, 1, 1)
 Instance.new("UICorner", KeyInput)
 
 local lbtn = Instance.new("TextButton", kmain)
 lbtn.Size = UDim2.new(0.8, 0, 0, 35)
-lbtn.Position = UDim2.new(0.1, 0, 0.68, 0)
-lbtn.Text = "LOGIN"
-lbtn.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
-lbtn.TextColor3 = Color3.new(1,1,1)
+lbtn.Position = UDim2.new(0.1, 0, 0.7, 0)
+lbtn.Text = "Check Key"
+lbtn.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
+lbtn.TextColor3 = Color3.new(1, 1, 1)
 lbtn.Font = Enum.Font.GothamBold
 Instance.new("UICorner", lbtn)
 
+--// Logic
 lbtn.MouseButton1Click:Connect(function()
-    local k = GetKeyData()
-    if k and k[KeyInput.Text] then
+    local data = GetKeyData()
+    if data and data[KeyInput.Text] then
+        print("Key Correct!")
         KeyEntered = true
         ksg:Destroy()
     else
-        player:Kick("Invalid Key!")
+        KeyInput.Text = ""
+        KeyInput.PlaceholderText = "INVALID KEY!"
+        task.wait(1)
+        KeyInput.PlaceholderText = "Paste key here..."
     end
 end)
 
+--// Wait for key
 repeat task.wait() until KeyEntered == true
 
--- [[ MAIN SCRIPT START ]]
-print("YARHM Loaded Successfully!")
--- Your Scanner/Autoshoot code goes here
+--// YOUR MAIN SCRIPT STARTS HERE
+print("YARHM successfully started!")
+-- Put the rest of your scanner/script here
